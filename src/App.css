@@ -31,7 +31,7 @@
   text-align: center;
 }
 .meme img{
-  width: auto;
+  width: 50%;
   height: 500px;
 }
 .meme input{
@@ -51,7 +51,7 @@
 }
 .contain{
   text-align: center;
-  
+  height: 100%;
   background-color: rgb(248, 186, 227);
 }
   
