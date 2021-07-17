@@ -16,16 +16,17 @@ const Templates=({templates,setMeme})=>{
           }
              {
         templates.map((temp)=>
-          (
-          <div key={temp.id} className="temp" onClick={()=>{
-            setMeme(temp)
-          }}>
-            <div className="image">
-            <div style={{backgroundImage:`url(${temp.url})`}} className='image'></div>
+          {
+            return( <div key={temp.id} className="temp" onClick={()=>{
+              setMeme(temp)
+            }}>
+              <div className="image">
+              <div style={{backgroundImage:`url(${temp.url})`}} className='image'></div>
+              </div>
             </div>
-          </div>
-
-        ))
+  )
+          }
+        )
       };
         </div>
        

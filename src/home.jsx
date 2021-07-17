@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import { Link } from "react-router-dom";
 
-
-
 const Home = () => {
   //  var imgs=document.querySelector(".images")
   const [memes, setMemes] = useState([]);
@@ -43,10 +41,11 @@ const Home = () => {
         }
         <div className="canvas1">
           <div className="images">
-            {memes.map((element, index) => (
-              <div key={index}  className="image1"  style={{ backgroundImage: `url(${element.url})` }}>
-              </div>
-            )
+            {memes.map((element, index) => {
+              return(<div key={index}  className="image1"  style={{ backgroundImage: `url(${element.url})` }}>
+              </div>)
+              
+            }
 )}
           </div>
         </div>

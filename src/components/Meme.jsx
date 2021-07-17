@@ -13,10 +13,9 @@ const Meme=({meme,setMeme })=>{
 
     const generateMeme=()=>{
         let url=`https://api.imgflip.com/caption_image?template_id=${form.template_id}&username=${form.username}&password=${form.password}`;
-        form.boxes.map((box,index)=>{
-        console.log(`boxes[${index}][text]=${box.text}`)
+        form.boxes.map((box,index)=>
         url+=   `&boxes[${index}][text]=${box.text}`
-        })
+        )
         fetch(url).then(res=>res.json())
         .then(data=>{
             setMeme({...meme,url:data.data.url})
@@ -29,13 +28,17 @@ const Meme=({meme,setMeme })=>{
           <h2>Edit Template</h2>
         <img src={meme.url} alt="" />
         <div>
-          {[...Array(meme.box_count)].map((_,index)=>(<input key={index} type="text" placeholder={`Meme Caption ${index+1}`} onChange={
-              (e)=>{
+          {[...Array(meme.box_count)].map((_,index)=>{
+              return (<input key={index} type="text" placeholder={`Meme Caption ${index+1}`} onChange={
+              (e)=>
+              {
                   const newBoxes=form.boxes
                   newBoxes[index]={ text: e.target.value}
                   setForm({...form,boxes:newBoxes})
               }
-          } />) )}
+          } />)
+          }
+          )}
         </div>
         <div>
             <button onClick={
