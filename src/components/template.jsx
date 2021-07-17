@@ -6,7 +6,7 @@ const Templates=({templates,setMeme})=>{
         Go Back
       </Link>
     </div>
-  );
+  )
  
     return (
         <div className="temps">
