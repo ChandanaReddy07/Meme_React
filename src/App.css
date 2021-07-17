@@ -31,7 +31,7 @@
   text-align: center;
 }
 .meme img{
-  width: 100%;
+  width: auto;
   height: 500px;
 }
 .meme input{
