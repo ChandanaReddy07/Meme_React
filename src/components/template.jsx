@@ -3,7 +3,8 @@ const Templates=({templates,setMeme})=>{
   const goBack = () => (
     <div>
       <Link className="but2" to="/">
-        Go Back
+        Go Back To Generation
+        
       </Link>
     </div>
   )
