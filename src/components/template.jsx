@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+//added comment
 const Templates=({templates,setMeme})=>{
   const goBack = () => (
     <div>
       <Link className="but2" to="/">
         Go Back To Generation
-        
+
       </Link>
     </div>
   )
