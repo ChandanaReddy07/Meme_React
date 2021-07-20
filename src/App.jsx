@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Templates from "./components/template";
 import Meme from "./components/Meme";
-import { Link } from 'react-router-dom';
+
 
 function App() {
   const [templates, setTemplates] = useState([]);
