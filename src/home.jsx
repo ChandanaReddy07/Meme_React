@@ -7,7 +7,7 @@ const Home = () => {
   const [memes, setMemes] = useState([]);
 
   useEffect(() => {
-    fetch("https://meme-api.herokuapp.com/gimme/8")
+    fetch("https://meme-api.com/gimme/8")
       .then((res) => res.json())
       .then((data) => {
         setMemes(data.memes);
