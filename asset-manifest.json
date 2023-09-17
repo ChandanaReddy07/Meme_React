@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Meme_React/static/css/main.b99a9a6d.chunk.css",
-    "main.js": "/Meme_React/static/js/main.1e94badd.chunk.js",
-    "main.js.map": "/Meme_React/static/js/main.1e94badd.chunk.js.map",
+    "main.css": "/Meme_React/static/css/main.b6596154.chunk.css",
+    "main.js": "/Meme_React/static/js/main.e41dc8a3.chunk.js",
+    "main.js.map": "/Meme_React/static/js/main.e41dc8a3.chunk.js.map",
     "runtime-main.js": "/Meme_React/static/js/runtime-main.9d1f252e.js",
     "runtime-main.js.map": "/Meme_React/static/js/runtime-main.9d1f252e.js.map",
     "static/js/2.57a51b41.chunk.js": "/Meme_React/static/js/2.57a51b41.chunk.js",
     "static/js/2.57a51b41.chunk.js.map": "/Meme_React/static/js/2.57a51b41.chunk.js.map",
     "index.html": "/Meme_React/index.html",
-    "static/css/main.b99a9a6d.chunk.css.map": "/Meme_React/static/css/main.b99a9a6d.chunk.css.map",
+    "static/css/main.b6596154.chunk.css.map": "/Meme_React/static/css/main.b6596154.chunk.css.map",
     "static/js/2.57a51b41.chunk.js.LICENSE.txt": "/Meme_React/static/js/2.57a51b41.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d1f252e.js",
     "static/js/2.57a51b41.chunk.js",
-    "static/css/main.b99a9a6d.chunk.css",
-    "static/js/main.1e94badd.chunk.js"
+    "static/css/main.b6596154.chunk.css",
+    "static/js/main.e41dc8a3.chunk.js"
   ]
 }
